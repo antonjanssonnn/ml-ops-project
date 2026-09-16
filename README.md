@@ -12,6 +12,14 @@ A CLI tool that answers questions using a small checked-in dataset as its only s
 
 Built to learn RAG and ML-ops by doing, with an emphasis on understanding *why* each piece exists, not just copying a tutorial. See [docs/](docs/) for write-ups on each concept as they're introduced.
 
+## Theory
+
+- [What is RAG, and why does it exist?](docs/01-what-is-rag.md)
+
+## Dataset
+
+`data/raw/` holds eight short, unrelated factual articles used as the knowledge base. `data/eval/eval_questions.json` holds a fixed set of questions with known-correct answers and source documents, used to evaluate the pipeline (see the eval theory doc, coming in a later milestone).
+
 ## Setup
 
 Requires [uv](https://docs.astral.sh/uv/).

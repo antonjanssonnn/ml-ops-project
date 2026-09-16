@@ -1,0 +1,98 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the largest moon of Saturn?",
+    "expected_answer": "Titan",
+    "expected_source": "001_saturn.txt"
+  },
+  {
+    "id": "q02",
+    "question": "How long is a day on Saturn?",
+    "expected_answer": "about 10.7 hours",
+    "expected_source": "001_saturn.txt"
+  },
+  {
+    "id": "q03",
+    "question": "How tall is the Eiffel Tower?",
+    "expected_answer": "330 metres",
+    "expected_source": "002_eiffel_tower.txt"
+  },
+  {
+    "id": "q04",
+    "question": "What structure took over from the Eiffel Tower as the tallest man-made structure in the world?",
+    "expected_answer": "the Chrysler Building",
+    "expected_source": "002_eiffel_tower.txt"
+  },
+  {
+    "id": "q05",
+    "question": "What green pigment absorbs light during photosynthesis?",
+    "expected_answer": "chlorophyll",
+    "expected_source": "003_photosynthesis.txt"
+  },
+  {
+    "id": "q06",
+    "question": "What are the two main stages of photosynthesis called?",
+    "expected_answer": "the light-dependent reactions and the light-independent reactions (Calvin cycle)",
+    "expected_source": "003_photosynthesis.txt"
+  },
+  {
+    "id": "q07",
+    "question": "Approximately how long is the Great Wall of China including all its branches?",
+    "expected_answer": "approximately 21,000 kilometres",
+    "expected_source": "004_great_wall.txt"
+  },
+  {
+    "id": "q08",
+    "question": "During which dynasty were the most famous sections of the Great Wall of China built?",
+    "expected_answer": "the Ming dynasty",
+    "expected_source": "004_great_wall.txt"
+  },
+  {
+    "id": "q09",
+    "question": "How many eggs can a queen honeybee lay per day during peak season?",
+    "expected_answer": "up to 2,000 eggs",
+    "expected_source": "005_honeybees.txt"
+  },
+  {
+    "id": "q10",
+    "question": "Who discovered and decoded the honeybee waggle dance?",
+    "expected_answer": "Karl von Frisch",
+    "expected_source": "005_honeybees.txt"
+  },
+  {
+    "id": "q11",
+    "question": "In which two scientific fields did Marie Curie win Nobel Prizes?",
+    "expected_answer": "Physics and Chemistry",
+    "expected_source": "006_marie_curie.txt"
+  },
+  {
+    "id": "q12",
+    "question": "What caused Marie Curie's death in 1934?",
+    "expected_answer": "aplastic anemia, likely caused by prolonged radiation exposure",
+    "expected_source": "006_marie_curie.txt"
+  },
+  {
+    "id": "q13",
+    "question": "How many hearts does an octopus have?",
+    "expected_answer": "three",
+    "expected_source": "007_octopus.txt"
+  },
+  {
+    "id": "q14",
+    "question": "Why is octopus blood blue?",
+    "expected_answer": "because it uses the copper-based molecule hemocyanin instead of iron-based hemoglobin",
+    "expected_source": "007_octopus.txt"
+  },
+  {
+    "id": "q15",
+    "question": "Who created the Python programming language?",
+    "expected_answer": "Guido van Rossum",
+    "expected_source": "008_python_language.txt"
+  },
+  {
+    "id": "q16",
+    "question": "What is Python's name a reference to?",
+    "expected_answer": "the British comedy group Monty Python",
+    "expected_source": "008_python_language.txt"
+  }
+]
