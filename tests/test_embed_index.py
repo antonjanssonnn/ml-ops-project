@@ -8,21 +8,23 @@ def test_build_index_creates_chunks_and_index():
     chunks = load_documents(Path("data/raw"))
 
     # Build the index
-    index, model = build_index(chunks)
+    index, model, model_name = build_index(chunks)
 
     assert index.ntotal == len(chunks)
     assert model is not None
-
+    assert model_name is not None
+    
 def test_save_index_creates_files(tmp_path: Path):
     # Load documents and create chunks
     chunks = load_documents(Path("data/raw"))
 
     # Build the index
-    index, model = build_index(chunks)
+    index, _model, model_name = build_index(chunks)
 
     # Save the index and chunks to a temporary directory
-    save_index(index, chunks, tmp_path)
+    save_index(index, chunks, model_name, tmp_path)
 
     # Check that the files were created
     assert (tmp_path / "faiss.index").exists()
     assert (tmp_path / "chunks.json").exists()
+    assert (tmp_path / "metadata.json").exists()
