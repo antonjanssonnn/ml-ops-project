@@ -1,4 +1,7 @@
 from anthropic import Anthropic
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 def build_prompt(query: str, chunks: list[dict]) -> str:
     context_text = "\n\n".join(chunk["text"] for chunk in chunks)
